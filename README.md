@@ -1,5 +1,14 @@
 # End-to-end-Text-Summarizer
 
+conda create -n textsum python===3.8
+
+conda activate textsum
+
+pip install -r requirements.txt
+
+python main.py
+
+python app.py
 
 ## Workflows
 
